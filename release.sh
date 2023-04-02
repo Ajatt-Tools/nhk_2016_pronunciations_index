@@ -1,6 +1,6 @@
 #!/bin/bash
 
-tag=$(git describe --tags)
+tag=${1:-$(git describe --tags)}
 echo "Creating release for tag $tag"
 bash ./package.sh
 gh release create "$tag" \
