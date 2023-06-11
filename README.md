@@ -1,4 +1,4 @@
-# NHK pronunciations index
+# NHK-2016 pronunciations index
 
 This is a default audio source for [AJT Japanese](https://ankiweb.net/shared/info/1344485230).
 It maps words to their pronunciations.
